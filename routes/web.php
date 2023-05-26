@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Livewire\AboutCats;
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Homepage;
+use App\Http\Livewire\MostPopularCat;
+use App\Http\Livewire\ShowCat;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group([
+    'as' => 'cats.'
+], function () {
+    Route::get('/', Homepage::class)->name('home');
+    Route::get('/about', AboutCats::class)->name('about');
+    Route::get('/most-popular', MostPopularCat::class)->name('most-popular');
+    Route::get('/{id}', ShowCat::class)->whereAlphaNumeric('id')->name('show');
 });

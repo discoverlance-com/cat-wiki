@@ -3,11 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ $title ?? 'Cat Wiki' }}</title>
 
-  @vite('resources/css/app.css')
+  <title> {{ $title ? "$title - Cat Wiki": 'Cat Wiki' }}</title>
+
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
+  @livewireStyles
 </head>
-<body>
+<body class="antialiased font-sans">
     {{ $slot }}
+
+    @livewireScripts
 </body>
 </html>
