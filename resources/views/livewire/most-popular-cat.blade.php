@@ -1,3 +1,0 @@
-<div>
-   <h1>Most Popular</h1>
-</div>

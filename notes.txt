@@ -1,0 +1,12 @@
+// Header
+<div class="rounded-t-[42px] bg-black">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil amet totam recusandae ullam pariatur saepe, magni autem aliquam alias rerum dolor dolorum earum exercitationem facere illum perspiciatis. Harum, nam.</p>
+</div>
+
+
+// Navbar
+<nav class="my-9">
+    <a href="/" class="">
+        <img src="/cat-wiki-master/CatwikiLogo.svg" width="128" height="43" alt="Cat Wiki Logo" />
+    </a>
+</nav>
