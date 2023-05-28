@@ -1,5 +1,6 @@
 <script>
 	import HomeHeader from './HomeHeader.svelte';
+	import HomeMostSearched from './HomeMostSearched.svelte';
 </script>
 
 <svelte:head>
@@ -7,3 +8,4 @@
 </svelte:head>
 
 <HomeHeader />
+<HomeMostSearched />

@@ -1,6 +1,11 @@
 export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
+	plugins: {
+		tailwindcss: {},
+		autoprefixer: {},
+		'postcss-remove-rules': {
+			rulesToRemove: {
+				'img,\nvideo': 'height'
+			}
+		}
+	}
+};
