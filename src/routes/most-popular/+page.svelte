@@ -2,6 +2,10 @@
 	import CatImage from '$components/CatImage.svelte';
 </script>
 
+<svelte:head>
+	<title>Most Popularly Searched - CatWiki</title>
+</svelte:head>
+
 <h1 class="font-bold text-4xl text-primary-200 mb-12">Top 10 most searched breeds</h1>
 
 <ol class="space-y-14">
@@ -10,6 +14,7 @@
 		<div class="flex-shrink-0">
 			<CatImage
 				src="/cat-wiki-master/example-cat.png"
+				id="cat"
 				title="Cat"
 				width={170}
 				height={170}
