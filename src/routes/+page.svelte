@@ -1,4 +1,5 @@
 <script>
+	import HomeAbout from './HomeAbout.svelte';
 	import HomeHeader from './HomeHeader.svelte';
 	import HomeMostSearched from './HomeMostSearched.svelte';
 </script>
@@ -9,3 +10,4 @@
 
 <HomeHeader />
 <HomeMostSearched />
+<HomeAbout />

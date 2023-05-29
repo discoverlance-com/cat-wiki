@@ -2,7 +2,7 @@
 	import CatImage from '$components/CatImage.svelte';
 </script>
 
-<section class="bg-secondary-100 pt-4 sm:pt-11 pb-12 sm:pb-12 px-6 sm:px-24">
+<section class="bg-secondary-100 pt-4 sm:pt-11 pb-12 sm:pb-12 px-6 sm:px-24 rounded-b-[42px] mb-24">
 	<h2 class="font-medium text-lg">Most Searched Breeds</h2>
 	<span class="block w-16 h-1 bg-secondary-200 mt-2" />
 

@@ -7,6 +7,7 @@
 	export let title: string;
 	export let hasBackground = false;
 
+	// TODO: Add actual implementation to get cat slug
 	const url = resolvePath(`/cats/[slug]`, {
 		slug: encodeURIComponent(title)
 	});

@@ -1,4 +1,5 @@
 <script>
+	import TheFooter from '$components/UI/layouts/TheFooter.svelte';
 	import '../app.css';
 </script>
 
@@ -8,5 +9,9 @@
 			<img src="/cat-wiki-master/CatwikiLogo.svg" alt="Cat Wiki Logo" width="128" height="43" />
 		</a>
 	</nav>
-	<slot />
+	<main class="mb-28">
+		<slot />
+	</main>
+
+	<TheFooter />
 </div>
