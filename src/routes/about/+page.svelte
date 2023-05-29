@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>About - CatWiki</title>
+</svelte:head>
+
 <h1 class="font-bold text-4xl text-primary-200 mb-12">About CatWiki</h1>
 
 <p class="text-lg text-primary-200 my-2">

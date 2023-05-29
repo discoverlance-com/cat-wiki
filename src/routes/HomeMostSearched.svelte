@@ -21,9 +21,9 @@
 	<div
 		class="mt-11 grid md:grid-cols-3 lg:grid-cols-4 grid-cols-1 place-items-center sm:grid-cols-2 gap-12"
 	>
-		<CatImage src="/cat-wiki-master/example-cat.png" title="Bengal" hasBackground />
-		<CatImage src="/cat-wiki-master/example-cat.png" title="Savannah" />
-		<CatImage src="/cat-wiki-master/example-cat.png" title="Norwegian Forest Cat" />
-		<CatImage src="/cat-wiki-master/example-cat.png" title="Selkirk Rex" />
+		<CatImage id="bengal" src="/cat-wiki-master/example-cat.png" title="Bengal" hasBackground />
+		<CatImage id="bengal" src="/cat-wiki-master/example-cat.png" title="Savannah" />
+		<CatImage id="bengal" src="/cat-wiki-master/example-cat.png" title="Norwegian Forest Cat" />
+		<CatImage id="bengal" src="/cat-wiki-master/example-cat.png" title="Selkirk Rex" />
 	</div>
 </section>

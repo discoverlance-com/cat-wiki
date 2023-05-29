@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
+	import PageTransition from '$components/PageTransition.svelte';
 	import TheFooter from '$components/UI/layouts/TheFooter.svelte';
 	import '../app.css';
+
+	import type { LayoutServerData } from './$types';
+
+	export let data: LayoutServerData;
 </script>
 
 <div class="mx-auto max-w-[1248px] px-4">
@@ -10,7 +15,9 @@
 		</a>
 	</nav>
 	<main class="mb-28">
-		<slot />
+		<PageTransition pathname={data.pathname}>
+			<slot />
+		</PageTransition>
 	</main>
 
 	<TheFooter />

@@ -6,13 +6,13 @@
 	export let backgroundWidth = 12;
 	export let backgroundHeight = 176;
 	export let src: string;
+	export let id: string;
 	export let title: string;
 	export let showTitle = true;
 	export let hasBackground = false;
 
-	// TODO: Add actual implementation to get cat slug
 	const url = resolvePath(`/cats/[slug]`, {
-		slug: encodeURIComponent(title)
+		slug: id
 	});
 </script>
 

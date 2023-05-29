@@ -16,7 +16,8 @@ const config = {
 			split: false
 		}),
 		alias: {
-			'$components/*': 'src/components/*'
+			'$components/*': 'src/components/*',
+			'$types/*': 'src/types/*'
 		}
 	}
 };
