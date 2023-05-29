@@ -29,6 +29,7 @@
 	</div>
 	{#if showTitle}
 		<a
+			data-sveltekit-preload-data="off"
 			class="text-primary-200 font-semibold text-lg mt-5 inline-block hover:text-primary-200/60"
 			href={url}>{title}</a
 		>
